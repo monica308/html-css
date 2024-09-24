@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas absolutas: cm, mm, in, px, pt, pc
+            Medidas Relativas: em, ex, rem, vw, vh, %
+            16px é igual a 1em
+            */
+            font-size: 1em;
+            font-weight: normal;
+            font-style: italic;
+            text-decoration: underline;
+            /* weight é peso, width é largura, height é altura*/
+        }
+        h1{
+            font: italic bolder 3em 'Work Sans', sans-serif;
+            /* o uso de shorthand se dá em não precisar colocar cada propriedade da fonte separada, e poder colocar todas na mesma linha como acima, mas para isso é necessario coloca-las na ordem: font-style-> font-weight->font-size->font-family*/
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore aliquam ipsa fugiat est expedita corporis quo impedit enim? Rem dolore at excepturi reprehenderit fugiat saepe eaque quod nisi minus libero!</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam officia maiores tempore eligendi, nemo corrupti maxime ullam odio incidunt ipsa explicabo iusto itaque eius similique nostrum at fugit, cumque cum?</p>
+    <h2>Subtítulo do Exercicio</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id debitis tempore sunt deserunt maiores voluptates minus quis facere qui recusandae, unde, nisi et porro rerum voluptatibus aliquid doloribus enim eveniet.</p>
+</body>
+</html>
